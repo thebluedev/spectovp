@@ -21,7 +21,7 @@ const Cursor = () => {
   
       <div className="hidden md:block cursorReplace">
         <span
-          className="absolute h-[100px] w-[100px] bg-white z-[9] rounded-full pointer-events-none overflow-hidden blur-3xl"
+          className="absolute h-[100px] w-[100px] bg-white -z-10 rounded-full pointer-events-none overflow-hidden blur-3xl"
           style={{
             left: `${position.x -75}px`,
             top: `${position.y -75}px`,
@@ -29,7 +29,7 @@ const Cursor = () => {
           }}
         ></span>
         <span
-          className="absolute h-[10px] w-[10px] bg-white z-[60] rounded-full mix-blend-overlay pointer-events-none overflow-hidden"
+          className="absolute h-[10px] w-[10px] bg-white -z-10  rounded-full mix-blend-overlay pointer-events-none overflow-hidden"
           style={{
             left: `${position.x}px`,
             top: `${position.y}px`,
@@ -37,7 +37,7 @@ const Cursor = () => {
           }}
         ></span>
         <span
-          className="absolute h-[75px] w-[75px] bg-[#43A7B6] z-10 blur-2xl overflow-x-hidden pointer-events-none overflow-hidden"
+          className="absolute h-[75px] w-[75px] bg-[#43A7B6] -z-10 blur-2xl overflow-x-hidden pointer-events-none overflow-hidden"
           style={{
             left: `${position.x}px`,
             top: `${position.y}px`,
@@ -45,7 +45,7 @@ const Cursor = () => {
           }}
         ></span>
         <span
-          className="absolute h-[75px] w-[75px] bg-[#DD5061] z-10 blur-2xl overflow-x-hidden pointer-events-none overflow-hidden"
+          className="absolute h-[75px] w-[75px] bg-[#DD5061] -z-10 blur-2xl overflow-x-hidden pointer-events-none overflow-hidden"
           style={{
             left: `${position.x - 75}px`,
             top: `${position.y}px`,
@@ -53,7 +53,7 @@ const Cursor = () => {
           }}
         ></span>
         <span
-          className="absolute h-[75px] w-[75px] bg-[#FDC654] z-10 blur-2xl overflow-x-hidden pointer-events-none overflow-hidden"
+          className="absolute h-[75px] w-[75px] bg-[#FDC654] -z-10 blur-2xl overflow-x-hidden pointer-events-none overflow-hidden"
           style={{
             left: `${position.x - 50}px`,
             top: `${position.y - 75}px`,

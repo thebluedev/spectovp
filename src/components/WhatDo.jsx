@@ -2,67 +2,78 @@
 import Card from "./Card.jsx";
 let cardDetails = [
   {
+    id:0,
     head: "AR Overlays",
     content:
       "Providing real-time,intuitive information to enhance daily activities and accessibility",
   },
   {
+    id:1,
     head: "Immersive VR Experiences",
     content:
       "Creating inclusive virtual environments that cater to diverse abilities and needs.",
   },
   {
+    id:2,
     head: "3D Solutions",
     content:
       "Developing advanced 3D applications to support education, training, and recreation.",
   },
   {
+    id:3,
     head: "AR Overlays",
     content:
       "Providing real-time,intuitive information to enhance daily activities and accessibility",
   },
   {
+    id:4,
     head: "Immersive VR Experiences",
     content:
       "Creating inclusive virtual environments that cater to diverse abilities and needs.",
   },
   {
+    id:5,
     head: "3D Solutions",
     content:
       "Developing advanced 3D applications to support education, training, and recreation.",
   },
   {
+    id:6,
     head: "AR Overlays",
     content:
       "Providing real-time,intuitive information to enhance daily activities and accessibility",
   },
   {
+    id:7,
     head: "Immersive VR Experiences",
     content:
       "Creating inclusive virtual environments that cater to diverse abilities and needs.",
   },
   {
+    id:8,
     head: "3D Solutions",
     content:
       "Developing advanced 3D applications to support education, training, and recreation.",
   },
   {
+    id:9,
     head: "AR Overlays",
     content:
       "Providing real-time,intuitive information to enhance daily activities and accessibility",
   },
   {
+    id:10,
     head: "Immersive VR Experiences",
     content:
       "Creating inclusive virtual environments that cater to diverse abilities and needs.",
   },
   {
+    id:11,
     head: "3D Solutions",
     content:
       "Developing advanced 3D applications to support education, training, and recreation.",
   },
 ];
-console.log(cardDetails[0].head);
 console.log(cardDetails[0].content);
 export default function WhatDo() {
   return (
@@ -77,7 +88,8 @@ export default function WhatDo() {
       >
         <div className="flex flex-nowrap overflow-x-auto w-min h-fit pl-10 snap-proximity snap-x">
           {cardDetails.map((card) => (
-            <Card head={card.head} content={card.content} />
+            <Card 
+            head={card.head} content={card.content} />
           ))}
         </div>
       </div>
