@@ -2,9 +2,9 @@ name: NodeJS React WF
 
 on:
   push:
-    branches: [ "githubActions" ]
+    branches: [ "main" ]
   pull_request:
-    branches: [ "githubActions" ]
+    branches: [ "main" ]
 
 jobs:
   build:
