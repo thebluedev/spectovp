@@ -1,7 +1,11 @@
 body {
   overflow-x: hidden;
+  cursor:none;
 }
 
+html::-webkit-scrollbar {
+  display: none;
+}
 .scrollhide::-webkit-scrollbar {
   display: none;
 }

@@ -8,10 +8,11 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="absolute w-full z-[70] text-black flex items-center justify-between backdrop-blur border-solid border-0 border-b-[0.05px] border-[#ffffff2a]">
+    <nav className="absolute w-screen z-[70] text-black flex items-center justify-between backdrop-blur border-solid border-0 border-b-[0.05px] border-[#ffffff2a]">
       <div className="flex items-center">
         <div className="text-2xl font-bold ml-4 py-4">SpectoV</div>
       </div>
+
       <div className="hidden md:flex items-center space-x-16 ">
 
         <a href="https://example.com" className="transition-colors duration-500 hover:text-[#43A7B6]">
@@ -34,7 +35,7 @@ const Navbar = () => {
       <div className="md:hidden flex items-center">
         <button
           onClick={toggleMenu}
-          className="mobile-menu-button bg-[#dd5061] rounded-none h-16 px-8"
+          className="mobile-menu-button bg-[#dd5061] rounded-none h-16 px-8 sm:px-10"
         >
           <svg
             className="w-6 h-6 text-black"
