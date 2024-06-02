@@ -26,7 +26,7 @@ export default function Hero() {
         <img
           src={scrollthing}
           alt="scroll down icon"
-          className="h-10 md:mt-[6.5rem] mt-[10.5rem] ml-[55rem]"
+          className="h-10 hidden md:block md:mt-[0rem] mt-[10.5rem] ml-[50%]"
         />
       </div>
       <img
