@@ -17,12 +17,14 @@ export default function Hero() {
             Accessible World
           </div>
         </h1>
-        <button
+        <a
+          href="products"
           className="nb-button default rounded-2xl mt-5  bg-[#f5f5f5]  normal-case h-[3rem] w-[10rem] mb-24"
-          style={{ padding: "0px" }}
+          style={{ padding: "1rem" }}
         >
           Learn More
-        </button>
+        </a
+        >
         <img
           src={scrollthing}
           alt="scroll down icon"
