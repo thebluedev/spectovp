@@ -10,7 +10,7 @@ const Navbar = () => {
   return (
     <nav className="absolute w-screen z-[70] text-black flex items-center justify-between backdrop-blur border-solid border-0 border-b-[0.05px] border-[#ffffff2a]">
       <div className="flex items-center">
-        <div className="text-2xl font-bold ml-4 py-4">SpectoV</div>
+        <a href="/" className="text-2xl font-bold ml-4 py-4">SpectoV</a>
       </div>
 
       <div className="hidden md:flex items-center space-x-16 ">
